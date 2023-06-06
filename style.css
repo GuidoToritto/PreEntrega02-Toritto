@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Georgia';
+  src: url('ruta-de-la-fuente/georgia.ttf') format('truetype');
+}
+
+header {
+  font-family: 'Georgia', serif;
+}
+
+.welcome{
+    background-color: rgb(255, 238, 0);
+}
+
+

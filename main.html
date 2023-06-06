@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PreEntrega2-Toritto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+    <script defer src="index.js"></script>
+</head>
+
+<body class="bg-lime-100 tracking-tighter">
+    
+
+    <header class="text-center my-5 mx-10 grid grid-cols-2">
+
+        <div>
+            <img class="w-40 mx-auto" src="./1kr1ogrv8i7bae50ditscfjqug-731ce0b86011fa85a5daed81e7b2fbe9.png" alt="">
+            <h1 class="text-5xl text-gray-800">artDealerCompany</h1>
+            <p class="text-2xl text-gray-600">Si, vendemos obras de arte.</p>
+        </div>
+
+        <div class="mt-5">
+            <div
+                class="welcome text-xl font-mono text-center mx-auto max-w-xl p-4  rounded-lg outline outline-offset-0 m-5">
+                ¡Bienvenidos a nuestro mercado de arte! En esta página encontrarás las mejores obras con los mejores
+                precios del
+                mercado. ¡No te vas a arrepentir!
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-1 mt-2 px-4 rounded-lg"
+                    id="btn-comprar">
+                    ¡COMPRAR!
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <div id="productos-container" class="flex flex-wrap justify-center">
+        <div class="max-w-xs rounded-lg outline outline-offset-0 m-5">
+            <p class="bg-white p-2 border-b-2 border-black font-mono">Artista: David Hockeny</p>
+            <div class="bg-orange-100 text-center">
+                <div class="">
+                    "Man in Shower in Beverly Hills"
+                </div>
+                <img class="w-60 mx-auto" src="https://i.pinimg.com/564x/f9/c6/44/f9c644086abd3ef267f9f7efd3c21c9e.jpg"
+                    alt="Man in Shower in Beverly Hills">
+                <div class="px-6 py-2 bg bold">
+                    <p class="font-bold  font-serif">Año: 1964</p>
+                    <p class="text-gray-700 mb-2 ">
+                        Tecnica: Oleo sobre lienzo
+                    </p>
+                    <p class="text-gray-700 font-bold">
+                        $5.000.000
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="container" class="flex flex-wrap justify-center"></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+
+</body>
+
+</html>
